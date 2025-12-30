@@ -46,7 +46,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.cflorioluis"
                 artifactId = "kopynator-android"
-                version = "1.0.1"
+                // JitPack sets the version automatically based on the tag
             }
         }
     }
